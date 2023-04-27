@@ -19,8 +19,8 @@ export const Site: React.FC<SiteProps> = ({value, click, reset, min, max, setMin
     return (
         <div>
             <Routes>
-                <Route path={'/'} element={<Navigate to={'/Counter'}/>}/>
-                <Route path={'/Counter'} element={<Counter
+                <Route path={'/'} element={<Navigate to={'/counterWithRouter'}/>}/>
+                <Route path={'/counterWithRouter'} element={<Counter
                     value={value}
                     click={click}
                     reset={reset}

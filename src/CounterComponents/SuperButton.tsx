@@ -11,7 +11,7 @@ export type SuperButtonPropsType = {
 }
 
 export const SuperButton: React.FC<SuperButtonPropsType> = (props) => {
-    const {title, clickHandler, ...otherProps} = props
+    const {title, clickHandler} = props
 
     const onclickHandler = () => {
         clickHandler()
