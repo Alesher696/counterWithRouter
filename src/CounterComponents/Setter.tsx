@@ -43,7 +43,7 @@ export const Setter: React.FC<SetterPropsType> = (props) => {
             </div>
             <div className={b.buttons}>
                 <div className={b.buttonSet}>
-                    <NavLink to={'/Counter'}>
+                    <NavLink to={'/counterWithRouter'}>
                         <SuperButton title={"Set"} clickHandler={setValueHandler} disabled={setDisabler}/>
                     </NavLink>
 
